@@ -1,0 +1,73 @@
+@font-face{ 
+	font-family: 'Archistico_Bold-webfont';
+	src: url('Archistico_Bold-webfont.ttf') format('truetype');
+	src: url('Archistico_Bold-webfont.eot')
+		url('Archistico_Bold-webfont.eot?iefix') format('eot'),
+		url('Archistico_Bold-webfont.woff') format('woff'),
+		url('Archistico_Bold-webfont.ttf') format('truetype'),
+		url('Archistico_Bold-webfont.svg#webfont') format('svg');	
+}
+
+.lisere
+{
+	float: left;
+	width: 100px;
+	min-height: 1px;
+	border-radius: 10px 10px 10px 10px;
+	background: maroon;
+}
+
+.contenu
+{
+	margin-left: 5px;
+	border-radius: 10px 10px 10px 10px;
+	background: white;
+}
+
+body
+{
+	background-image: url("fond1.png");
+	background-repeat: repeat;
+	display: flex;
+	flex-direction: row;
+}
+
+section
+{
+	display: flex;
+	justify-content: space-between;
+	margin: 50px;
+}
+
+p
+{
+	margin: 20px;
+	clear: right;
+	background-image: url("fond.jpg");
+	background-repeat: repeat;
+	background-attachment: scroll; 
+	color: white;
+	border: 2px solid red;
+	box-shadow: 2px 2px 2px maroon;
+	text-align: justify;
+}
+	
+h1, h2
+{
+	color: orange;
+	font-family: 'Archistico_Bold-webfont', Arial, serif;
+	text-shadow: 1px 1px 1px black;
+	text-align: center;
+}
+
+h1
+{
+	text-align: center;
+	text-decoration: underline;
+}
+
+.imageflottante
+{
+	float: right;
+}
+
